@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<tag>
+		<name>display</name>
+		<tag-class>com.nit.taglib.MyTagHandler</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>
