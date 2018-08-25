@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+<title>Login Application Using AJAX</title>
+</head>
+<body>
+	<form action="logurl" method="post">
+		<table align="center">
+			<tr>
+				<td>Username</td>
+				<td><input type="text" name="username" id="username" placeholder="abc@xyz.com"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" id="password" placeholder="*******"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" id="login" name="login" value="Login" /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div id="ajaxGetUserServletResponse"></div>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
