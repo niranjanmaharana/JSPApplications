@@ -1,0 +1,6 @@
+create table emp_register(eid number(5),
+						  ename varchar2(100),
+						  econtact number(10),
+						  eadd varchar2(200),
+						  ephotoloc varchar2(200),
+						  eresumeloc varchar2(200));
